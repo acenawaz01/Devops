@@ -11,8 +11,6 @@ https://github.com/xwiki/xwiki-platform
 https://github.com/authorjapps/zerocode
 https://github.com/ggrandes/httpd
 -----
-You should know below before our next session on Saturday morning:
-
 Use git command to clone the repositories on your local machine for building and deploying (Avoid using download in UI) 
 
 1. How to install jenkins on local machine.
@@ -28,11 +26,9 @@ Use git command to clone the repositories on your local machine for building and
 11. What are dependencies tag, profile tag, build tag, group-artifact-version in pom.xml
 12. What is parent child pom 
 13. What are different packaging types in maven (war, ear, pom, jar)
-14. Where is the default settings.xml location.
+14. Which two files are important for running maven? What is their purpose and Where are they located? (pom.xml & settings.xml)
 15. Which website maven connects by default for getting the dependencies. which file is this configured defined.
 16. How to pass custom settings.xml.
 17. How to build and deploy artifacts to jfrog using maven.
 19. What are snapshot and release artifacts. What changes are needed in pom.xml to build release/snapshot artifacts.
 20. https://kurular4.medium.com/why-you-should-use-parent-pom-for-your-multi-module-java-projects-b575017fab2e
-
-Doubt solving - we will have Thursday Morning IST. Ping in watsapp for any doubts. Try to collaborate and resolve queries.
