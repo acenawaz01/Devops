@@ -18,10 +18,10 @@ Use git command to clone the repositories on your local machine for building and
 1. How to install jenkins on local machine.
 2. What are services? How to start/stop services? 
 3. How to check logs of Jenkins (or any application)
-4. What is the purpose of JAVA_HOME, M2_HOME, PATH environment variable
+4. What is the purpose of JAVA_HOME, M2_HOME, PATH environment variable. What are environment variables?
 5. How to install multiple java versions on a machine.
 6. How to install maven on your machine.
-7. What is maven? What is a build tool? Which language maven is used for?
+7. What is maven? What is a build tool? What is purpose of maven? Which language maven is used for?
 8. What is pom.xml, settings.xml for maven.
 9. Where are the dependencies for maven downloaded and stored.
 10. What are the different Maven Goals and Phases -- Official Documentations
@@ -29,10 +29,9 @@ Use git command to clone the repositories on your local machine for building and
 12. What is parent child pom 
 13. What are different packaging types in maven (war, ear, pom, jar)
 14. Where is the default settings.xml location.
-15. Which website maven connects by default for getting the dependencies. where is it configured.
+15. Which website maven connects by default for getting the dependencies. which file is this configured defined.
 16. How to pass custom settings.xml.
-17. Setup JFrog artifactory.
-18. How to build and deploy artifacts to jfrog using maven.
+17. How to build and deploy artifacts to jfrog using maven.
 19. What are snapshot and release artifacts. What changes are needed in pom.xml to build release/snapshot artifacts.
 20. https://kurular4.medium.com/why-you-should-use-parent-pom-for-your-multi-module-java-projects-b575017fab2e
 
