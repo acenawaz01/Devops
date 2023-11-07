@@ -1,0 +1,9 @@
+NPM Projects: https://maxrozen.com/examples-of-large-production-grade-open-source-react-apps
+
+NPM:
+
+Install Node using Zip file
+What is NPM? What is Node?
+Which files are important for building projects using node? 
+Which file is used for storing dependencies and project configuration in npm?
+Which file is used ofr storing jfrog connection details while building code with npm?
