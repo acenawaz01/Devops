@@ -22,7 +22,7 @@ Use git command to clone the repositories on your local machine for building and
 7. What is maven? What is a build tool? What is purpose of maven? Which language maven is used for?
 8. What is pom.xml, settings.xml for maven.
 9. Where are the dependencies for maven downloaded and stored.
-10. What are the different Maven Goals and Phases -- Official Documentations
+10. What are the different Maven Goals and Phases -- Official Documentations (what is mvn clean, mvn validate, mvn compile etc - run it, see practical implementation and read about it from official documentation, search on google if needed)
 11. What are dependencies tag, profile tag, build tag, group-artifact-version in pom.xml
 12. What is parent child pom 
 13. What are different packaging types in maven (war, ear, pom, jar)
@@ -32,3 +32,6 @@ Use git command to clone the repositories on your local machine for building and
 17. How to build and deploy artifacts to jfrog using maven.
 19. What are snapshot and release artifacts. What changes are needed in pom.xml to build release/snapshot artifacts.
 20. https://kurular4.medium.com/why-you-should-use-parent-pom-for-your-multi-module-java-projects-b575017fab2e
+
+You should be able to build artifacts with different maven goals and phases and deploy to artifactory.
+
