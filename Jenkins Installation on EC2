@@ -1,0 +1,23 @@
+https://www.cherryservers.com/blog/how-to-install-jenkins-on-ubuntu-22-04
+
+Step1: Create EC2
+
+Step2: Run below commands
+sudo apt-get update
+sudo apt install openjdk-11-jdk
+java --version
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]  https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt update
+sudo apt install jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+Step3: Access the Jenkins using Machine's Public DNS
+
+Unix Commands You Should Know:
+cd
+ls -ltr
+sudo systemctl status jenkins
+sudo systemctl start jenkins
+echo
